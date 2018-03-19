@@ -53,3 +53,10 @@ body {
   background-color: #edf1f4;
   padding: 5% 7%;
 }
+
+/* FOOTER STYLES START */
+.footer {
+  background-color: #000;
+  color: #edf1f4;
+  padding: 3%;
+}
