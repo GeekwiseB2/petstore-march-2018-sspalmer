@@ -5,19 +5,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<!-- HEADER STARTS -->
 	<header class="container">
-		<img src="img/petstore_logo.png" alt="Logo Image" class="img-responsive logo pull-left">
-		<h1 class="brand pull-left">Pet Store</h1>
-		<ul class="nav nav-pills pull-right">
-		  <li role="presentation" class="active"><a href="#">Home</a></li>
-		  <li role="presentation"><a href="#">Products</a></li>
-		  <li role="presentation"><a href="#">Contact Us</a></li>
-		</ul>
+		<div class="flex">
+			<span class="flex">
+				<img src="img/petstore_logo.png" alt="Logo Image" class="img-responsive logo pull-left">
+				<h1 class="brand pull-left">Pet Store</h1>
+			</span>
+			<ul class="nav nav-pills pull-right">
+			  <li role="presentation" class="active"><a href="#">Home</a></li>
+			  <li role="presentation"><a href="#">Products</a></li>
+			  <li role="presentation"><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
 	</header>
 	<!-- HEADER ENDS -->
 	<!-- JUMBOTRON STARTS -->
@@ -27,6 +31,150 @@
 		</div>
 	</div>
 	<!-- JUMBOTRON ENDS -->
+
+	<!-- FEATURED & SERVICES START  -->
+	<div class="container">
+		<div class="row">
+			<!-- FEATURED START -->
+			<div class="col-sm-7">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2 class="text-uppercase">featured</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					</div>
+				</div>
+				<!-- THUMBNAIL STARTS -->
+				<div class="row">
+					<!-- FIRST THUMBNAIL BEGINS -->
+				  <div class="col-xs-6 col-md-4">
+				    <div class="thumbnail">
+				      <img src="img/product1.jpg" alt="Product 1">
+				      <div class="caption">
+				        <h3>Dog Bowl</h3>
+				        <p>The best dog bowl for your dog.</p>
+				        <p>
+									<a href="#" class="btn btn-primary" role="button">Purchase Now</a>
+								</p>
+				      </div>
+				    </div>
+				  </div>
+					<!-- FIRST THUMBMAIL ENDS -->
+					<!-- SECOND THUMBMAIL STARTS -->
+					<div class="col-xs-6 col-md-4">
+				    <div class="thumbnail">
+				      <img src="img/product2.jpg" alt="Product 2">
+				      <div class="caption">
+				        <h3>Cat Toy</h3>
+				        <p>The best cat toy for your favorite cat.</p>
+				        <p>
+									<a href="#" class="btn btn-primary" role="button">Purchase Now</a>
+								</p>
+				      </div>
+				    </div>
+				  </div>
+					<!-- SECOND THUMBMAIL ENDS -->
+					<!-- THIRD THUMBMAIL STARTS -->
+					<div class="col-xs-6 col-md-4">
+				    <div class="thumbnail">
+				      <img src="img/product3.jpg" alt="Product 3">
+				      <div class="caption">
+				        <h3>Parrot Stuff</h3>
+				        <p>The best parrot stuff for your parrot.</p>
+				        <p>
+									<a href="#" class="btn btn-primary" role="button">Purchase Now</a>
+								</p>
+				      </div>
+				    </div>
+				  </div>
+					<!-- THIRD THUMBMAIL ENDS -->
+			</div>
+			<!-- THUMBNAIL ENDS -->
+			</div>
+			<!-- FEATURED ENDS -->
+			<!-- SERVICES STARTS -->
+			<div class="col-sm-offset-1 col-sm-3 text-center">
+				<h2 class="text-uppercase">services</h2>
+				<ul class="nav nav-pills nav-stacked">
+				  <li role="presentation" class="active text-uppercase"><a href="#">Adopt a cat</a></li>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				  <li role="presentation" class="text-uppercase"><a href="#">Adopt a dog</a></li>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				  <li role="presentation" class="text-uppercase"><a href="#">Adopt a fish</a></li>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</ul>
+			</div>
+			<!-- SERVICES ENDS -->
+		</div>
+	</div>
+	<!-- FEATURED & SERVICES ENDS -->
+	<!-- FOOTER STARTS -->
+  <div class="container-fluid footer">
+	<!-- FOOTER ROW 1 STARTS -->
+	<div class="row">
+		<!-- FOOTER SECTION 1 STARTS -->
+		<div class="col-sm-3">
+			<span class="flex">
+				<img src="img/petstore_logo.png" alt="Logo Image" class="img-responsive logo pull-left">
+			</span>
+		</div>
+		<!-- FOOTER SECTION 1 ENDS -->
+		<!-- FOOTER SECTION 2 STARTS -->
+		<div class="col-sm-3 vline">
+			<div>
+				<p>Pet Store</p>
+				<p>Fresno, CA</p>
+				<p>info@petstore.com</p>
+			</div>
+		</div>
+		<!-- FOOTER SECTION 2 ENDS -->
+		<!-- FOOTER SECTION 3 STARTS -->
+		<div class="col-sm-3 vline">
+			<div>
+				<p><i class="fa fa-twitter"></i> Twitter</p>
+				<p><i class="fa fa-facebook-f"></i> Facebook</p>
+				<p><i class="fab fa-linkedin-in"></i> LinkedIn</p>
+			</div>
+		</div>
+		<!-- FOOTER SECTION 3 ENDS -->
+	</div>
+	<!-- FOOTER ROW 1 ENDS -->
+	<div class="row text-center">Pet Store Inc. All Rights Reserved.</div>
+	</div>
+	<!-- FOOTER ENDS -->
+
+<!-- Ryker's footer version Starts -->
+<footer class="container-fluid">
+	<div class="row">
+		<!-- Footer logo Starts -->
+		<div class="col-sm-2 col-sm-offset-1"><img src="img/petstore_logo.png" alt="Logo" class="img-responsive"></div>
+		<!-- Footer logo Ends -->
+		<div class="col-sm-3 middle">
+			<address>
+				Pet Store <br>
+				Fresno, Ca <br>
+				<a href="mailto:info@peststore.com">info@petstore.com</a>
+			</address>
+		</div>
+		<div class="col-sm-2 social-icons">
+			<!-- Social Media Starts -->
+			<a href=""><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+			<a href=""><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+			<a href=""><i class="fa fa-linkedin" aria-hidden="true"> LinkedIn</i></a>
+			<!-- Social Media Ends -->
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 text-center copy">
+			&copy;Pet Store Inc. All Rights Reserved.
+		</div>
+	</div>
+</footer>
+
+<!-- Ryker's footer version Ends -->
+
+
+
+
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
